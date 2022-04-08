@@ -16,7 +16,9 @@
 3) and Nothing
 
 ```
-[Lab Report 1](lab-report-1-week-2.html)
-[Lab Report 1](https://jeyiu.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
+nothing
+nothing
 nothing
 ```
+[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](https://jeyiu.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
