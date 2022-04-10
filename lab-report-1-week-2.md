@@ -17,7 +17,6 @@
 
 
 ## Installing VSCode
----
 Install Visual Studio Code through the link below, and follow the instructed steps to install.
 
 [Windows x64](https://code.visualstudio.com/docs/?dv=win)       [MacOS](https://code.visualstudio.com/docs/?dv=osx)       [Linux (.deb)](https://code.visualstudio.com/docs/?dv=linux64_deb)       [Linux (.rpm)](https://code.visualstudio.com/docs/?dv=linux64_rpm) 
@@ -29,7 +28,6 @@ Once you finish installing, open the application. It should look like this.
 ![VS Code](report-1-img-1.png)
 
 ## Remotely Connecting
----
 Once you have installed VS Code, you can open a new terminal on VS Code using ctrl+shift+\` (Or use the built-in terminal/command prompt/powershell applications on your computer), and input the command below. 
 
 ```
@@ -47,7 +45,6 @@ The terminal should response with something similar to this.
 If you see this screen, then congratulations, you have accessed the course account. 
 
 ## Trying Some Commands
----
 Now that you are on the UNIX system in your course account, you can try out some of the UNIX specific commands!
 Some commands that are available include:
 
@@ -66,7 +63,6 @@ To use them, simply type them into the terminal. Example:
 ![Running Command](report-1-img-3.png)
 
 ## Moving Files with scp
----
 Now, we will learn how to move files from your local device to the course account. 
 
 To do so, first you will need to navigate your terminal to the file you wish to transfer. (Don't forget to use `logout` to logout of the course account before doing so.)
@@ -89,7 +85,6 @@ Once the terminal returns the screen below, you have completed the transfer. Go 
 
 Try to do this with a file a few times to make sure you know how to do it. 
 ## Setting an SSH Key
----
 After having to log in and out of ssh, aren't you tired of having to type your password over and over again? Well we could set up an SSH key on our local device to save the password. 
 
 To use SSH Key, first you have to type in your terminal (when you're logged out of SSH):
@@ -113,7 +108,6 @@ Once you run this line, it should prompt you for one last password, then that's 
 ![no passowrd](report-1-img-5.png)
 
 ## Optimizing Remote Running
----
 Now that you have learned all the skills necessary, let's learn some cheats that would make things easier. 
 
 First, if you want ssh to run a command immediately after login, you can append it to the end of the login like this: 
