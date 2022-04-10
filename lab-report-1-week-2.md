@@ -4,10 +4,15 @@
 
 **Steps:**
 1) Installing VScode
+
 2) Remotely Connecting
+
 3) Trying Some Commands
+
 4) Moving Files with scp
+
 5) Setting an SSH Key
+
 6) Optimizing Remote Running
 
 
@@ -20,6 +25,7 @@ Install Visual Studio Code through the link below, and follow the instructed ste
 For other options, check Visual Studio Code's [Official Website](https://visualstudio.microsoft.com/downloads/).
 
 Once you finish installing, open the application. It should look like this. 
+
 ![VS Code](report-1-img-1.png)
 
 ## Remotely Connecting
@@ -35,6 +41,7 @@ Once you press enter, the terminal would prompt you for a password, to which you
 The password would not show up on terminal as you are inputting it for confidentiality purposes, but don't worry you are typing. 
 
 The terminal should response with something similar to this. 
+
 ![Remote Access](report-1-img-2.png)
 
 If you see this screen, then congratulations, you have accessed the course account. 
@@ -55,6 +62,7 @@ Some commands that are available include:
 Try them out to see what they do!
 
 To use them, simply type them into the terminal. Example: 
+
 ![Running Command](report-1-img-3.png)
 
 ## Moving Files with scp
@@ -101,6 +109,7 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zzz@ieng6.ucsd.edu:~/.ssh/author
 Of course, this is done with your username on your device and for course account. 
 
 Once you run this line, it should prompt you for one last password, then that's it! (Your login should no longer require password input)
+
 ![no passowrd](report-1-img-5.png)
 
 ## Optimizing Remote Running
@@ -116,5 +125,7 @@ You are also capable of stacking multiple commands using `;`. For instance,
 ssh cs15lsp22ajr@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"
 ```
 would compile the WhereAmI.java file and run it. 
+
 ![short compile](report-1-img-6.png)
+
 Doing so could help you make some of the tasks you need to complete easier. Especially if you need to repeatedly perform something. 
