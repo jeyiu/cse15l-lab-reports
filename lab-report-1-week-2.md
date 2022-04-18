@@ -48,13 +48,14 @@ If you see this screen, then congratulations, you have accessed the course accou
 Now that you are on the UNIX system in your course account, you can try out some of the UNIX specific commands!
 Some commands that are available include:
 
-* cd ~
-* cd
-* ls -lat
-* ls -a
-* ls <directory\>
-* cp <directory\>
-* cat <directory\>
+
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls -a`
+* `ls <directory\>`
+* `cp <directory\>`
+* `cat <directory\>`
 
 Try them out to see what they do!
 
