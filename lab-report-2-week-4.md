@@ -35,8 +35,8 @@ Before the fix, the program would return `page.com` as one of the links even tho
 
 The fix for this bug was through adding a line that tests if the space between `closeBracket` and `openParen` is 1. It would only add the link into the result if that is the case. 
 
-## Bug #3: Incorrect Tester
-The file that caused the bug: [File](https://github.com/jeyiu/markdown-parser/blob/main/MarkdownParseTest.java)
+## Bug #3: Index Out of Bound Error
+The file that caused the bug: [File](https://github.com/jeyiu/markdown-parser/blob/main/test-file4.md)
 
 The Symptom of the Bug: 
 ![Symptom 2](report-2-img-6.png)
@@ -44,6 +44,6 @@ The Symptom of the Bug:
 Changes that fixed the bug: 
 ![Code Diff 2](report-2-img-5.png)
 
-Before the fix, the program would return no output despite the test file containing two hyperlink. This is because the tester for that test file is written incorrectly and it did not find the file it was supposed to test. 
+Before the fix, the program would reach out-of-bound indexes because it would continue to look for the closing bracket when it couldn't find one. This would occue whenever there is a bracket or parenthesis that isn't closed off in the file. 
 
-The fix for this bug was through adding the correct lines that looks for the content of the test file intead of only giving the name of the test file to the program. 
+The fix for this bug was through adding if statements that checks for all four components ([, ], (, )) exist, otherwise it would skip this and move-on to the next hyperlink. 
