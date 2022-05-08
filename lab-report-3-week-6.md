@@ -30,6 +30,9 @@ Public Key (on Github):
 ![Public Key](report-3-img-6.png)
 Private Key (on course account):
 ![Public Key 2](report-3-img-7.png)
+Success Git Push Example: 
+![Git Push](report-3-img-8.png)
+Commit Link: [Link](https://github.com/jeyiu/cse15l-lab-reports/commit/ab0a8ded83093227233f66934701b8bb31884cd5)
 
 
 ## Copy Directories
