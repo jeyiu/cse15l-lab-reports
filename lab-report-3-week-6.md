@@ -26,6 +26,12 @@ This stores the login information for my account within SSH config so that whene
 
 ## Setup Github Access
 
+Public Key (on Github): 
+![Public Key](report-3-img-6.png)
+Private Key (on course account):
+![Public Key 2](report-3-img-7.png)
+
+
 ## Copy Directories
 To copy an entire directory at once using SCP, you simply have to add -r (for recursive) onto the command. 
 
