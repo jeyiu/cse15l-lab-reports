@@ -26,12 +26,24 @@ This stores the login information for my account within SSH config so that whene
 
 ## Setup Github Access
 
+By using `ssh key-gen`, we are able to generate the ssh key used to grant the remote account acccess to Github. 
+
+By pasting the contents of id_rsa.pub generated from the command within the `/.ssh` directory into Github, we would be able to set up Github access. 
+
 Public Key (on Github): 
 ![Public Key](report-3-img-6.png)
+
+Next we need to send the private key to the remote account using the `scp` command. 
 
 Private Key (on course account):
 
 ![Public Key 2](report-3-img-7.png)
+
+Lastly, after pulling a git repository, we would have to use the command 
+```
+git remote set-url origin <Repository SSH URl>
+```
+to make the program remember the pathway to the main repository. Then, we could use remote git to commit/push/pull repositories. 
 
 Success Git Push Example: 
 
