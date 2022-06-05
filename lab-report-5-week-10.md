@@ -30,6 +30,7 @@ The expected output is obtained from viewing the preview of the file on Github.
 For my implementation, the output was unable to obtain the correct link because of the inference of the quotation marks. The quotation mark is messing with the String in java. 
 
 ![fix1](report-5-img-2.png)
+
 In this portion, adding a precaution to check for quotation mark could help avoid the problem. 
 
 **Difference #2 ([test-files/51.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/51.md))**
@@ -48,4 +49,5 @@ The expected output is obtained from viewing the preview of the file on Github.
 For the given parser's implementation, it is somehow reading a line break as a url and recording that even though there is no content there. Perhaps the dash mark is being misused in the program. 
 
 ![fix2](report-5-img-3.png)
+
 In this portion, before adding the link, check if there is actually content in the url would help with the bug. 
